@@ -56,7 +56,3 @@ We welcome contributions from the community! Here's how you can contribute:
 ## License 📜
 
 This project is licensed under the MIT License - see the `LICENSE` file for details.
-
-## Connect with Us 📬
-
-For support, feature requests, or contributions, please visit our project page: [https://github.com/footcricket05/VeriKYC](https://github.com/charvijain12/VeriKYC).
