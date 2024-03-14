@@ -36,10 +36,12 @@ VeriKYC is a web application designed to streamline the Know Your Customer (KYC)
 1. Clone this repository.
 2. Install Node.js and MongoDB.
 3. Install dependencies: `npm install`.
-4. Set up configurations as per documentation.
-5. Run the application: `npm start`.
+4. Run the application: `npm start`.
 
-## Contact 📧
+## Contributing 🤝
 
-For any inquiries, please reach out to the contributors mentioned above. 
+Contributions are welcome! Feel free to fork the repository and submit pull requests.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
