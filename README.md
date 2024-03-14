@@ -10,8 +10,6 @@ https://github.com/footcricket05/VeriKYC/assets/93007427/e78d3dea-586a-4d9c-9077
 
 - **User Authentication:** Register and log in securely to perform tasks within the system.
 - **Server-side Sessions:** Maintain secure user sessions on the server for data privacy.
-- **KYC Verification:** Undergo KYC process for verification purposes.
-- **Automated KYC:** Fully automated process for swift verification.
 - **Machine Learning-Based Verification:** Utilize ML models for ID information extraction and face matching.
 - **Privacy Protection:** No storage of ID information on the server.
 
@@ -25,7 +23,6 @@ https://github.com/footcricket05/VeriKYC/assets/93007427/e78d3dea-586a-4d9c-9077
 - **Joi:** Library for form validation.
 - **Sanitize-html:** Tool for HTML input sanitization.
 - **Passport.js:** Authentication middleware.
-- **AWS EC2 Instance:** Hosting environment for the Express server.
 - **Oracle E2 Instance:** Hosting platform for the ML API server.
 - **OCR:** Extract details from ID cards using easy-ocr library.
 - **Face-Recognition:** Perform face recognition using Python library.
