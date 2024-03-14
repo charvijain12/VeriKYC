@@ -1,6 +1,6 @@
 # VeriKYC: Robust KYC Verification Platform 🌍
 
-VeriKYC is a web application designed to streamline the Know Your Customer (KYC) verification process for banking and financial institutions. It utilizes machine learning techniques to authenticate customers using their valid government-issued ID and real-time face recognition.
+VeriKYC is a web application designed to streamline the Know Your Customer (KYC) verification process for banking and financial institutions. It utilizes machine learning techniques to authenticate customers using their valid government-issued ID and real-time face recognition
 
 ## Demo Video 📹
 
