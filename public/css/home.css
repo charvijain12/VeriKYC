@@ -1,0 +1,20 @@
+.kyc-pending {
+    color: #d73333;
+    font-weight: bold;
+}
+
+.kyc-pending:hover {
+    color: #ff2828;
+    /* text-decoration: underline solid 2px; */
+}
+
+.kyc-done {
+    color: #2d8a2d;
+    font-weight: bold;
+}
+
+.disabled-link {
+    pointer-events: none;
+    cursor: default;
+    color: #2d8a2d;
+}
