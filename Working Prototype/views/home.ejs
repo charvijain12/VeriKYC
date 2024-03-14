@@ -1,0 +1,99 @@
+<% layout('layouts/boilerplate')%>
+<div class="container d-flex justify-content-center align-items-center"></div>
+<% if (currentUser) { %>
+<section>
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="card mb-4">
+                <img src="img/KYC-Logo.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <p class="mb-0">Full Name</p>
+                        </div>
+                        <div class="col-sm-9">
+                            <p class="text-secondary mb-0"><%=currentUser.fullname%></p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <p class="mb-0">Gender</p>
+                        </div>
+                        <div class="col-sm-9">
+                            <% if (currentUser.gender.toString() == "male") { %>
+                            <p class="text-secondary mb-0">Male</p>
+                            <% } else if (currentUser.gender.toString() == 'female'){ %>
+                            <p class="text-secondary mb-0">Female</p>
+                            <% } else { %>
+                            <p class="text-secondary mb-0">Transgender</p>
+                            <% } %>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <p class="mb-0">Contact Number</p>
+                        </div>
+                        <div class="col-sm-9">
+                            <p class="text-secondary mb-0"><%=currentUser.username%></p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <p class="mb-0">Date of Birth</p>
+                        </div>
+                        <div class="col-sm-9">
+                            <p class="text-secondary mb-0"><%=currentUser.dob.toString().substring(0,15)%></p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <p class="mb-0">Address</p>
+                        </div>
+                        <div class="col-sm-9">
+                            <p class="text-secondary mb-0"><%=currentUser.address%></p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <p class="mb-0">KYC Status</p>
+                        </div>
+                        <div class="col-sm-9">
+                            <% if (currentUser.kycStatus) { %>
+                            <p class="text-success mb-0">Verified</p>
+                            <% } else { %>
+                            <p class="text-danger mb-0">Not Verified</p>
+                            <% } %>
+                        </div>
+                    </div>
+                    <% if (currentUser.kycStatus) { %>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <p class="mb-0">KYC ID</p>
+                        </div>
+                        <div class="col-sm-9">
+                            <p class="text-secondary mb-0"><%= currentUser.idType %></p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <p class="mb-0">ID Number</p>
+                        </div>
+                        <div class="col-sm-9">
+                            <p class="text-secondary mb-0"><%='X'.repeat(currentUser.idNum.length - 4) + currentUser.idNum.substring(currentUser.idNum.length - 4) %></p>
+                        </div>
+                    </div>
+                    <% } %>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+<% } %>
