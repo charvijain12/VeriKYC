@@ -4,7 +4,7 @@ VeriKYC is a web application designed to streamline the Know Your Customer (KYC)
 
 ## Demo Video 📹
 
-
+https://github.com/footcricket05/VeriKYC/assets/93007427/e78d3dea-586a-4d9c-9077-a8e09964c87d
 
 ## Features 🚀
 
