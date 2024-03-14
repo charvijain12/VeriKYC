@@ -1,58 +1,45 @@
 # VeriKYC: Robust KYC Verification Platform 🌍
 
-Welcome to VeriKYC, a robust Know Your Customer (KYC) verification platform designed to streamline and secure the KYC process using advanced digital solutions. 🚀
+VeriKYC is a web application designed to streamline the Know Your Customer (KYC) verification process for banking and financial institutions. It utilizes machine learning techniques to authenticate customers using their valid government-issued ID and real-time face recognition.
 
-## Key Features 🌟
+## Demo Video 📹
 
-- **Advanced Identity Verification** 🔍: Utilize state-of-the-art technology to verify the identities of individuals with precision and reliability.
-- **Secure Document Handling** 📁: Ensure secure upload, sharing, and storage of sensitive documents and personal information.
-- **Customizable Workflow** ⚙️: Tailor the KYC process to meet the unique requirements of your organization or industry.
-- **Compliance and Security** 🛡️: Stay compliant with global KYC regulations while ensuring top-notch security practices.
 
-## Getting Started 🏁
 
-Jumpstart your VeriKYC integration with these steps:
+## Features 🚀
 
-1. **Clone this Repository** 📥:
+- **User Authentication:** Register and log in securely to perform tasks within the system.
+- **Server-side Sessions:** Maintain secure user sessions on the server for data privacy.
+- **KYC Verification:** Undergo KYC process for verification purposes.
+- **Automated KYC:** Fully automated process for swift verification.
+- **Machine Learning-Based Verification:** Utilize ML models for ID information extraction and face matching.
+- **Privacy Protection:** No storage of ID information on the server.
 
-```bash
-git clone https://github.com/footcricket05/VeriKYC.git
-```
+## Technology Stack ⚙️
 
-2. **Set Up Your Environment** 🌱:
+- **Node.js:** JavaScript runtime environment.
+- **Express.js:** Web application framework for Node.js.
+- **MongoDB Atlas:** Cloud-based database manager.
+- **Bootstrap:** Front-end framework for styling and responsiveness.
+- **EJS:** Embedded JavaScript for dynamic HTML views.
+- **Joi:** Library for form validation.
+- **Sanitize-html:** Tool for HTML input sanitization.
+- **Passport.js:** Authentication middleware.
+- **AWS EC2 Instance:** Hosting environment for the Express server.
+- **Oracle E2 Instance:** Hosting platform for the ML API server.
+- **OCR:** Extract details from ID cards using easy-ocr library.
+- **Face-Recognition:** Perform face recognition using Python library.
+- **FastAPI:** Framework for handling requests to and from the ML API server.
 
-Navigate to the VeriKYC directory and set up your environment according to the project's setup documentation.
+## Getting Started 🛠️
 
-```bash
-cd VeriKYC
-# Follow setup instructions as per the project documentation
-```
+1. Clone this repository.
+2. Install Node.js and MongoDB.
+3. Install dependencies: `npm install`.
+4. Set up configurations as per documentation.
+5. Run the application: `npm start`.
 
-3. **Launch VeriKYC** 🎉:
+## Contact 📧
 
-Follow the instructions in the setup documentation to start the VeriKYC platform. Ensure all services are running correctly.
+For any inquiries, please reach out to the contributors mentioned above. 
 
-## Prerequisites 📋
-
-Make sure you have the following installed:
-
-- [Node.js](https://nodejs.org/en/) (Recommended version as per the project's requirements)
-- Appropriate database system (Refer to the project's setup documentation for specifics)
-
-## Documentation 📖
-
-For a comprehensive guide and API documentation, please refer to the `docs` directory within this repository or visit our [online documentation](#).
-
-## How to Contribute 🤝
-
-We welcome contributions from the community! Here's how you can contribute:
-
-1. Fork the Project
-2. Create Your Feature Branch (`git checkout -b feature/YourAmazingFeature`)
-3. Commit Your Changes (`git commit -m 'Add some YourAmazingFeature'`)
-4. Push to the Branch (`git push origin feature/YourAmazingFeature`)
-5. Open a Pull Request
-
-## License 📜
-
-This project is licensed under the MIT License - see the `LICENSE` file for details.
