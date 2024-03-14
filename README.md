@@ -36,7 +36,7 @@ https://github.com/footcricket05/VeriKYC/assets/93007427/e78d3dea-586a-4d9c-9077
 1. Clone this repository.
 2. Install Node.js and MongoDB.
 3. Install dependencies: `npm install`.
-4. Run the application: `npm start`.
+4. Run the application: `node app.js`.
 
 ## Contributing 🤝
 
